@@ -1,0 +1,36 @@
+# Consistent Construction of Charts
+
+- Adding best practices to common chart
+  - Can end up being its own programming languague
+     - One user had 200 pg manual on their common chart
+- Is it better to do generators?
+  - Ask folks some questions and generate the chart
+- JSON schema
+  - There are challenges with validating that things are the right values. For example non-zero int
+- Tooling like lint extensions
+  - Something that tests states of the manifests after rendering
+  - Similar to [kube-lint](https://github.com/viglesiasce/kube-lint)
+  - There is an issue open on the Helm repo to add more to the linter there
+- There are things that Helm doesnt support from YAML
+  - No anchors
+  - YQ is used to get values out of a YAML
+    - How we check version increments
+- There is a proposal for overlays
+  - kfox opened this
+  - Can you have a overrides folder to take over resources from dependent charts
+- Currently in Charts repo we do conditional deployment of secrets/configmaps based on a value
+  - customConfigMap
+- One customer has 200 charts and using style guide to make sure people do the right thing
+  - Stacknetes approach
+  - Internal linters were useful
+    - Before and after rendering
+  - Charts get developed ad hoc, then the best practices applied later
+- Should there be more flexibility in the helm lint
+  - Maintainers are looking to add configs for YAML linting
+- Templating can be hard for users that don’t know Go template or Go
+- Do dev teams want to write charts	
+  - Yes at the beginning
+  - After a while its too complicated to handle
+  - Have to think about a lot of kubernetes "things"
+    - RBAC
+    - Network policy
