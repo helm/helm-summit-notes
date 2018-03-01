@@ -25,3 +25,8 @@ design thinking, and agile methodologies.
 SF for three months. 
 - Level: Open to mid-level and senior engineers.
 - Apply: Apply [here](https://careers.microsoft.com/jobdetails.aspx?ss=&pg=0&so=&rw=1&jid=347392&jlang=EN&pp=SS)
+
+### Codefresh
+The DevOps Platform built for Containers, Kubernetes, and Helm is hiring:
+#### Developer Evangelist
+Do you like code and talk? Apply [here](https://codefresh.io/developer-evangelist/)
