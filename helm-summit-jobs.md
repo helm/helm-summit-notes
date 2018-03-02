@@ -1,6 +1,6 @@
 # Helm Summit Hiring Board
 
-Are you hiring? List your jobs here!
+Are you hiring? Open a PR to add opportunities open your company.
 
 ### Microsoft
 The Azure Container Service team (ACS) is hiring for three (3!) roles:
