@@ -30,3 +30,14 @@ SF for three months.
 The DevOps Platform built for Containers, Kubernetes, and Helm is hiring:
 #### Developer Evangelist
 Do you like code and talk? Apply [here](https://codefresh.io/developer-evangelist/)
+
+### JFrog
+The database of DevOps supporting transformations from traditional to cloud native
+#### Developer Advocate
+Want to travel the world helping leading organizations make the leap?
+- Location: Sunnyvale, CA
+- Apply: Read the job description [here](https://join.jfrog.com/job/?job=847935) and email your cv to craigp @ jfrog.com
+#### Senior Solutions Engineer
+Build cloud native solutions with the top technology partners
+- Location: Sunnyvale, CA
+- Apply: Read the job description [here](https://join.jfrog.com/job/?job=847935) and email your cv to craigp @ jfrog.com
